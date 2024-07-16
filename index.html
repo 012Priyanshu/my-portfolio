@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+</head>
+<body>
+    <div id="header">
+
+        <div class="container">
+            <nav>
+                <div class="logo anim">Priyanshu Saklani</div>
+
+                <ul id="sidemenu">
+                    <li class="anim"><a href="#">Home</a></li>
+                    <li class="anim"><a href="#about">About</a></li>
+                    <li class="anim"><a href="#MyWork">My Work</a></li>
+                    <li class="anim"><a href="#ContactMe">Contact Me</a></li>   
+                    <i class="fas fa-times" onclick="closemenu()"></i>     
+                     </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+            <div class="header-text">
+                <p class="anim">Java Developer</p>
+                <h1 class="anim2">Hi,I'm <br> <span>Priyanshu Saklani.. </span></h1>
+            </div>
+        </div>
+       
+    </div>
+
+
+    <!-- ------about----------- -->
+
+    <div class="about" id="about">
+        <div class="container">
+            <div class="row">
+
+                <div class="about-col-1 anim2">
+                    <img src="Screenshot_20231213-191101.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub">About Me</h1>
+                    <p>
+                            Hy, I'm from Uttrakhand and I'm a student of bca 2 year in Graphic Era Hill University, as a programmer, I am passionate about writing code and developing high-quality software that meets the needs of my clients. My strong background in computer science, coupled with my commitment to using the best programming practices and tools available, makes me a valuable asset to any software development team.Taking projects from start to finish requires a comprehensive, detail-oriented mindset which is fortunately what I specialize in my passion and drive for successful completion have allowed me to manage projects both small-scale and large-scope within tight deadlines.
+
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Projects')">Projects</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li>
+                                <span>Java Developer</span><br>Making Applications On Java</li>
+                                <li><span>Web Developer</span><br>Design Web Applications</li>
+                                <li><span>Backened Develpoer</span><br>Little Bit knowladge Of Backened</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="Projects">
+                        <ul>
+                            <li><span>Atm Project</span><br>Making a Atm Project using java swings pacakges with database connectivity</li>
+                            <li><span>Designs </span> <br>Amazon <br> Netflix <br> Flipkart front pages</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2020 <br></span>I passed my 10 class from swami vivekanand public school.</li>
+                            <li><span>2020-2022 <br></span>I passed my 12 from new era academy</li>
+                            <li><span>2022-2023 <br></span>Right now I ,M'a bca student at Graphic era hill university</li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------services--------->
+
+    <div class="services">
+        <div class="container">
+            <h1 class="sub">My Services</h1>
+            <div class="services-list">
+                        <div>
+                            <i class="fa-brands fa-app-store"></i>
+                            <h2>Web Design</h2>
+                            <p>I have made some front designs like Amazon,Netflix,Dominos,Flipkart etc. <br> From these i have learned a lot.</p>
+                            <a href="#">Learn more</a>
+                        </div>
+
+                        <div>
+                            <i class="fa-solid fa-code"></i>
+                            <h2>Java Application</h2>
+                            <p>I made Java Application Using Swing Pacakges which is connected to Mysql. <br>And have a knowladge of DataBase Connectivity</p>
+                            <a href="#">Learn more</a>
+                        </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- --------portfolio---------- -->
+
+<div id="portfolio" >
+    <div class="container">
+
+        <h1 class="sub" id="MyWork">My Work</h1>
+
+        <div class="work-list">
+            <div class="work">
+                <img src="Screenshot 2023-11-05 130635.png">
+                <div class="layer">
+                    <h3>Netflix</h3>
+                    <a href="https://012priyanshu.github.io/netflix/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    
+                </div>
+            </div>
+
+            <div class="work" id="lele">
+                <img src="Screenshot 2023-11-05 130556.png">
+
+                <div class="layer">
+                    <h3>Dominos</h3>
+                
+                    <a href="https://012priyanshu.github.io/Dominos/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="Screenshot 2023-11-05 130520.png">
+                <div class="layer">
+                    <h3>Amazon</h3>                 
+                    <a href="https://012priyanshu.github.io/ama-zon/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <!-- <div class="work" id="lele">
+                <img src="Screenshot 2023-12-13 183822.png">
+                <div class="layer">
+                    <h3>Flipkart</h3>                
+                    <a href="https://012priyanshu.github.io/flipkart/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div> -->
+        </div>
+
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+<!-- -------------contact----------- -->
+
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub" id="ContactMe">Contact Me</h1>
+                <p> <i class="fa-solid fa-envelope"></i> Priyanshusaklani9@gmail.com</p>
+                <p> <i class="fa-solid fa-phone"></i> 9675681417</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/priyanshu_saklani1/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/priyanshu-saklani-abab63251/" target="_blank"><i class="fa-brands fa-linkedin"></i></i></a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="name" placeholder="your name" required>
+                    <input type="email" name="email" placeholder="your email" required>
+                    <textarea name="message" rows="6" placeholder="your message"></textarea>
+                    <button type="submit" class="btn tbn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright @ Priyanshu <i class="fa-solid fa-heart"></i> Thanks</p>
+    </div>
+</div>
+
+<!-- <button id="helloji">change mode</button> -->
+
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname)
+        {
+            for(tablink of tablinks)
+            {
+                tablink.classList.remove("active-link")
+            }
+            for(tabcontent of tabcontents)
+            {
+                tabcontent.classList.remove("active-tab")
+            }
+
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu()
+        {
+            sidemenu.style.right="0";
+        }
+
+        function closemenu()
+        {
+            sidemenu.style.right="-200px";
+        }
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxuRE7n_PrmDVbrHxnaqlOVo-J-A4ETQeVOhAFsPqagCvl2hFoFDDjBSI6JCTzKFBu4/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent sucessfully"
+            setTimeout(function()
+            {
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+  <!-- <script>
+
+
+    let btn4=document.querySelector("#helloji");
+    let mode="light";
+    
+    btn4.addEventListener("click",()=>
+    {
+        if(mode === "light")
+    {
+        mode="dark";
+        document.querySelector("body").style.backgroundColor="black";
+        document.querySelector(".contact-right").style.backgroundColor="black";
+        console.log(mode);
+    }
+    else
+    {
+        mode="light";
+        document.querySelector("body").style.backgroundColor="white";
+        document.querySelector(".contact-right").style.backgroundColor="white";
+        
+        
+        console.log(mode);
+    }
+    })
+  </script> -->
+
+
+</body>
+</html>
